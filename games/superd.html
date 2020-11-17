@@ -27,13 +27,21 @@
 		
 			<h2>SuperD</h2>
 			<hr/>
-			<div><embed src="http://coolmathgamesforkids.net/wp-content/uploads/games/custom/J/juegos-online-super-d.swf" wmode="direct" menu="false" quality="high" width="880" height="640" allowscriptaccess="always" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></div>
+			<script>
+				window.RufflePlayer = window.RufflePlayer || {};
+				window.addEventListener("DOMContentLoaded", (event) => {
+				const ruffle = window.RufflePlayer.newest();
+				const player = ruffle.create_player();
+				const container = document.getElementById("container");
+				container.appendChild(player);
+				player.stream_swf_url("games/superd.swf");
+			});
+</script>
+<script src="ruffle/ruffle.js"></script>
 		</main>
 		<footer>
 		
 		</footer>
-		
-		
 		
 		
 	</body>
