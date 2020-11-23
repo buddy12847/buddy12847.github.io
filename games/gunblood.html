@@ -9,19 +9,35 @@
 			h2 {text-align: center;}
 			p {text-align: center;}
 			div {text-align: center;}
+			/* Nav */
+			.toppestnav {
+				background-color: #ffcccc;
+				overflow: hidden;
+				border-style: inset;
+			}
+			.toppestnav a {
+				float: left;
+				text-align: center;
+				padding: 5px 15px;
+				text-decoration: none;
+				color: black;
+			}
+			.toppestnav a.active {
+				background-color: #ff9999;
+				color: white;
+			}
+
 		</style>
 	</head>
 	<body style="background-color:#ffcccc";>
 		<header>
-			<nav>
-				<a href="../index.html">Home</a>
-				&nbsp;&nbsp;
-				<a href="../about.html">About</a>
-				&nbsp;&nbsp;
-				<a href="../resources.html">Resources</a>
-				&nbsp;&nbsp;
-				<a href="../extras.html">Extras</a>
-			</nav>
+			<div class="toppestnav">
+				<a href="http://www.garfunkia.org">Home</a>
+				<a href="http://www.garfunkia.org/about">About</a>
+				<a href="http://www.garfunkia.org/resources">Resources</a>
+				<a href="http://www.garfunkia.org/news">News</a>
+				<a class="active" href="http://www.garfunkia.org/extras">Extras</a>
+			</div>		
 		</header>
 		<main>
 		

@@ -18,6 +18,24 @@
 				padding-right: 180px;
 				padding-left: 180px;
 			}
+			/* Nav */
+			.toppestnav {
+				background-color: #ffcccc;
+				overflow: hidden;
+				border-style: inset;
+			}
+			.toppestnav a {
+				float: left;
+				text-align: center;
+				padding: 5px 15px;
+				text-decoration: none;
+				color: black;
+			}
+			.toppestnav a.active {
+				background-color: #ff9999;
+				color: white;
+			}		
+			/* News Nav */
 			.topnav {
 				background-color: #ffcccc;
 				overflow: hidden;
@@ -33,26 +51,28 @@
 			.topnav a.active {
 				background-color: #ff9999;
 				color: white;
+			}
+			h4 {text-align: center;
+				line-height: 0;
 			}			
 		<link rel="icon" href="favicon.ico">	
 		</style>
 	</head>
 	<body style="background-color:#ffcccc";>
 		<header>
-			<nav>
+			<div class="toppestnav">
 				<a href="http://www.garfunkia.org">Home</a>
-				&nbsp;&nbsp;
-				<a href="http://www.garfunkia.org/about">About</a>
-				&nbsp;&nbsp;
+				<a href="http://www.garfunkia.org/news/about">About</a>
 				<a href="http://www.garfunkia.org/resources">Resources</a>
-				&nbsp;&nbsp;
+				<a class="active" href="http://www.garfunkia.org/news">News</a>				
 				<a href="http://www.garfunkia.org/extras">Extras</a>
-			</nav>
+			</div>
 		</header>
 	
 		<main>
 		
 			<h1>Garfunko Family News</h1>
+			<h4><i>"We let the good stories through."</i></h4>
 			<div class="topnav">
 				<a href="http://www.garfunkia.org/news">Home</a>
 				<a href="http://www.garfunkia.org/news/garfunkia">Garfunkia</a>
