@@ -177,13 +177,11 @@ main img{
 		margin-left:15%;
 	}
 	.container h2{
-		font-size:1.25em;
+		font-size:1em;
 	}
-	main h2{
-		margin-left:15%;
-	}
+
 	#content1 h2{
-		margin-left:15%;
+		margin-left:8%;
 	}
 
 }
