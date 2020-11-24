@@ -218,7 +218,8 @@ main img{
 }
 @media only screen and (max-width: 500px){
 	#title{
-		margin-left:15%;
+		margin-left:12%;
+		margin-right:0%;
 		width:250%;
 	}
 	#body h3{
