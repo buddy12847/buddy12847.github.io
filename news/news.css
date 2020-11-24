@@ -223,11 +223,16 @@ main img{
 	}
 	#body h3{
 		margin-left:0%;
-		font-size:17px;
 	}
-		#body h5{
-		margin-left:40%;
-		font-size:10px;
+	#body h2{
+		padding-left:0%;
+		margin-left:0%;
+	}
+	main h2{
+		margin-left:0%;
+	}
+	.container h2{
+		font-size:.75em;
 	}
 	.topnav a {
 		float: left;
