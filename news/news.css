@@ -1,13 +1,13 @@
 @font-face {
-  font-family: Chomsky;
   src: url(Chomsky);
+  font-family: Chomsky;
 }
 .container {
 	background-color: #FFFFFF;
 	display:grid;
 	height:100vh;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-template-rows: .1fr .5fr .1fr 2fr 1.5fr 1.5fr 1.5fr;
+	grid-template-rows: .1fr .5fr .1fr 2fr 1.5fr 1.5fr 1.5fr .5fr;
 	grid-template-areas:
 		"nav nav nav nav"
 		"title title title title"
@@ -15,7 +15,8 @@
 		"main main content1 content2"
 		"main main content1 content2"
 		"content3 content4 content5 content8"
-		"content6 content7 content5 content8";
+		"content6 content7 content5 content8"
+		"footer footer footer footer";
 	grid-gap: .5rem;
 }
 .container h2 {
@@ -66,6 +67,12 @@ main img{
 	width: 98%;
 	max-width:98%;
 	height: auto;
+}
+
+footer{
+	grid-area: footer;
+	background: #e6e6e6;
+
 }
 
 #content1{
@@ -200,7 +207,7 @@ main img{
 @media only screen and (max-width: 770px){
 	.container{
 		grid-template-columns: 1fr;
-		grid-template-rows: .1fr .5fr .1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-rows: .1fr .5fr .1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
 		grid-template-areas:
 		"nav"
 		"title"
@@ -213,7 +220,8 @@ main img{
 		"content5"
 		"content6"
 		"content7"
-		"content8";
+		"content8"
+		"footer";
 		
 	}
 	#title{
