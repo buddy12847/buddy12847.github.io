@@ -1,3 +1,7 @@
+@font-face {
+  font-family: Chomsky;
+  src: url(Chomsky.otf);
+}
 .container {
 	background-color: #FFFFFF;
 	display:grid;
@@ -27,12 +31,21 @@ nav{
 	grid-area: nav;
 }
 #title{
-
-    display: block;
-    margin-left: 35%;
-    margin-right: 50%;
-    width: 100%;	
+    display: block;	
 	grid-area: title;
+	padding:0;
+	margin-left:35%;
+}
+#title h1{
+	font-family:Chomsky;
+	font-weight: normal;
+	line-height:0;
+	font-size:50px;
+}
+#title h2{
+	line-height:0;
+	font-size:15px;
+	margin-left:12%;
 }
 
 header{
@@ -206,7 +219,7 @@ main img{
 	}
 	#title{
 		margin-left:20%;
-		width:200%;
+		width:100%;
 	}
 	#body h3{
 		margin-left:10%;
@@ -218,9 +231,14 @@ main img{
 }
 @media only screen and (max-width: 500px){
 	#title{
-		margin-left:12%;
-		margin-right:0%;
-		width:250%;
+		margin-left:10%;
+	}
+	#title h1{
+		font-size:30px;
+	}
+	#title h2{
+		margin-left:18%;
+		font-size:10px;
 	}
 	#body h3{
 		margin-left:0%;
