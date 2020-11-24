@@ -171,7 +171,6 @@ footer{
 	padding: 5px 15px;
 	text-decoration: none;
 	color: black;
-	font-size: 10px;
 }
 .toppestnav a:hover {
 	background-color: #e6e6e6;
@@ -272,6 +271,14 @@ footer{
 		color: black;
 		font-size:12px;
 	}	
+	.toppestnav a {
+		float: left;
+		text-align: center;
+		padding: 5px 15px;
+		text-decoration: none;
+		color: black;
+		font-size:12px;
+	}		
 }
 
 
