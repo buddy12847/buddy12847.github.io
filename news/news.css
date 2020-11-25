@@ -47,7 +47,7 @@ nav{
 	grid-area: title;
 }
 #titlenews img{
-	width:350px;
+	width:330px;
 }
 
 header{
@@ -150,7 +150,7 @@ footer{
 .topnav a {
 	float: left;
 	text-align: center;
-	padding: 5px 15px;
+	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
 }
@@ -233,7 +233,7 @@ footer{
 		padding-bottom:10px;
 	}
 	#title img{
-		width: 400px;
+		width: 330px;
 	}
 	.container h2{
 		font-size:.75em;
@@ -249,7 +249,7 @@ footer{
 }
 @media only screen and (max-width: 500px){
 	.toppestnav a {
-	font-size:14px;
+	font-size:13.5px;
 	}
 }
 
