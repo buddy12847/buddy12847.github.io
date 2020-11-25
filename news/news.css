@@ -1,7 +1,9 @@
-@font-face {
-  src: url(Chomsky);
-  font-family: Chomsky;
+@font-face{ 
+	font-family: 'Chomsky';
+	src: url('fonts/chomsky-webfont.woff') format('woff');
+
 }
+
 .container {
 	background-color: #FFFFFF;
 	display:grid;
