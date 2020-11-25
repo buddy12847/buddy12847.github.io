@@ -2,16 +2,21 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<meta name="description" content="Resources to learn more about Garfunkel">
+		<meta name="description" content="About Garfunkel and Garfunkia">
 		<title>Holy Temple of Garfunkia</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<style>
 			#body{
 				min-height: 400px;
 			}			
-			h2 {text-align: center;}
+			h1 {text-align: center;}
 			p {text-align: center;}
 			div {text-align: center;}
+			p {
+				margin-right: 10%;
+				margin-left: 10%;
+			}
+			main {text-align: center;}
 			/* Nav */
 			.toppestnav {
 				background-color: #ffcccc;
@@ -32,34 +37,38 @@
 				color: white;
 			}
 			@media only screen and (max-width: 500px){
-			.toppestnav a {
+				.toppestnav a {
 				font-size:13.5px;
 				}
-			}
+			}			
+		<link rel="icon" href="../favicon.ico">	
 		</style>
-		<link rel="icon" href="favicon.ico">
 	</head>
 	<body style="background-color:#ffcccc";>
 		<header>
 			<div class="toppestnav">
 				<a href="http://www.garfunkia.org">Home</a>
 				<a href="http://www.garfunkia.org/about">About</a>
-				<a class="active" href="http://www.garfunkia.org/resources">Resources</a>
+				<a href="http://www.garfunkia.org/resources">Resources</a>
 				<a href="http://www.garfunkia.org/news">News</a>
-				<a href="http://www.garfunkia.org/extras">Extras</a>
-			</div>		
+				<a class="active" href="http://www.garfunkia.org/extras">Extras</a>
+			</div>
+			<h1>Chad's Playground</h1>
+			</hr>
 		</header>
 		<main>
-		
-			<h2>Resources</h2>
-			<hr/>
-			<div><a href="http://www.garfunkia.org/laws">Laws of Garfunkel</a></div>
-			</br>
-			<div><a href="http://www.garfunkia.org/calendar">Garfunkian Calendar</a></div>
-			</br>
-			<div><a href="http://www.garfunkia.org/more">More(Mobile compatible versions)</a></div>
+		<img src="train.gif"/>
+		<img src="cat.gif"/>
+		</br>
+		<img src="chill.gif"/>
+		</br>
+		<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">On</button>
+		<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+		<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Off</button>
+		<script type="text/javascript" src="../script.js"></script>
 		</main>
 		<footer>
+		
 		</footer>
 		
 		
