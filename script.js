@@ -60,15 +60,11 @@ if (month == "R"){
 	day = datediff(parseDate("3/21/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
 }
 // End of day finding
-// Below subtracts 1 if before 6am
-if(currentHour<6){
-	day=day-1;
-	
-}
+
 
 //end of that
 
-
+var tzoff = d.getTimezoneOffset() / 60;
 // Find year
 var year;
 if(currentMonth>3 || curentMonth==3 && currentDay>4){
@@ -78,6 +74,22 @@ if(currentMonth>3 || curentMonth==3 && currentDay>4){
 	year = currentYear - 2018;
 }
 // End of year finding
+
+// Something I made to spit out UTC+12 //
+
+var hour = d.getHours();
+if(tzoff !=12){
+	hour = hour - (12-tzoff);
+	
+}
+// Below subtracts 1 if before 6am
+if(tzoff!=12 && currentHour < 6){
+	day=day-1;
+	
+}
+var minute = d.getMinutes();
+document.getElementById("p2").innerHTML = hour + ":" + minute;
+
 // Below exports the day formatted to the correct format into a paragraph with the id of "p1".
 document.getElementById("p1").innerHTML = month + day + "-GY" + year;
 function sendMessage() {
@@ -86,10 +98,15 @@ function sendMessage() {
 request.setRequestHeader('Content-type', 'application/json');
 
       var params = {
-        content: month + day + "-GY" + year
+        content: month + day + "-GY" + year + "\n    " + hour + ":" + minute
       }
 
       request.send(JSON.stringify(params));
     }
+
+
+
+
+
 
 
