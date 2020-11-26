@@ -87,7 +87,7 @@ if(tzoff!=12 && currentHour < 6){
 	day=day-1;
 	
 }
-var minute = d.getMinutes();
+var minute = ('0'+d.getMinutes()).slice(-2);
 document.getElementById("p2").innerHTML = hour + ":" + minute;
 
 // Below exports the day formatted to the correct format into a paragraph with the id of "p1".
