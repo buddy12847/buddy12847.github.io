@@ -78,9 +78,12 @@ if(currentMonth>3 || curentMonth==3 && currentDay>4){
 // Something I made to spit out UTC+12 //
 
 var hour = d.getHours();
-if(tzoff !=12){
+if(tzoff !=12 && hour > 12){
 	hour = hour - (12-tzoff);
 	
+}
+if (tzoff !=12 && hour < 12){
+	hour = hour + (12+tzoff);
 }
 // Below subtracts 1 if before 6am
 if(tzoff!=12 && currentHour < 6){
