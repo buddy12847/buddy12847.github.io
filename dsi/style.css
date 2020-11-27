@@ -52,7 +52,7 @@ p {
 	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
-	font-size:x-small;
+	font-size:.5em;
 }
 .toppestnav a:hover {
 	background-color: #ffb3b3;}
