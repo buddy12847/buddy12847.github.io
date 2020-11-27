@@ -27,7 +27,7 @@
 	line-height: 0;
 	text-decoration: none;
 }
-.container a {
+main a {
 	text-decoration: none;
 	color: black;
 }
@@ -39,6 +39,17 @@ nav{
 	text-align:center;
 	display: block;	
 	grid-area: title;
+}
+#title h1{
+	text-decoration: none;
+	color: black;
+	
+}
+#title a{
+	text-decoration: none;
+	color: black;
+	
+}
 }
 #title img{
 	width:500px;
@@ -58,6 +69,14 @@ h1{
 
 #titlenews img{
 	width:330px;
+}
+
+.toppestnav{
+	text-align:center;
+	
+}
+.topnav a{
+	font-size:x-small;
 }
 
 header{
@@ -151,78 +170,29 @@ footer{
 	
 }
 
-
-.topnav {
-	background-color: #FFFFFF;
-	overflow: hidden;
-	border-style: inset;
-}
-.topnav a {
-	float: left;
-	text-align: center;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: black;
-	font-size:small;
-}
-.topnav a:hover {
-	background-color: #e6e6e6;
-
-}
-.topnav a.active {
-	background-color: #cccccc;
-	color: black;
-}			
-/* Nav */
-.toppestnav {
-	background-color: #FFFFFF;
-	overflow: hidden;
-	border-style: solid;
-	border-color: grey;
-	border-width: 2px;
-}
-.toppestnav a {
-	float: left;
-	text-align: center;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: black;
-	font-size:x-small;
-}
-.toppestnav a:hover {
-	background-color: #e6e6e6;
-
-}
-.toppestnav a.active {
-	background-color: #cccccc;
-	color: black;
-}
-
-@media only screen and (max-width: 770px){
-	.container{
-		grid-template-columns: 1fr;
-		grid-template-rows: .1fr .5fr .1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
-		grid-template-areas:
-		"nav"
-		"title"
-		"header"
-		"main"
-		"content1"
-		"content2"
-		"content3"
-		"content4"
-		"content5"
-		"content6"
-		"content7"
-		"content8"
-		"footer";
-		
-	}
-	#content1 img{
+#content1 img{
 		width: 30%;
 
 }
-
+@media only screen and (max-width: 770px){
+.container{
+	grid-template-columns: 1fr;
+	grid-template-rows: .1fr .5fr .1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
+	grid-template-areas:
+	"nav"
+	"title"
+	"header"
+	"main"
+	"content1"
+	"content2"
+	"content3"
+	"content4"
+	"content5"
+	"content6"
+	"content7"
+	"content8"
+	"footer";	
+	}
 
 
 
