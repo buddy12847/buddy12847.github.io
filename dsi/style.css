@@ -1,3 +1,6 @@
+*{font-family:sans-serif;}
+
+
 #body{
 	min-height: 400px;
 }
@@ -49,7 +52,7 @@ p {
 	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
-	font-size:12px;
+	font-size:11px;
 }
 .toppestnav a:hover {
 	background-color: #ffb3b3;}

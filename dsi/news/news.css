@@ -1,3 +1,4 @@
+*{font-family:sans-serif;}
 @font-face{ 
 	font-family: 'Chomsky';
 	src: url('fonts/chomsky-webfont.woff') format('woff');
@@ -162,7 +163,7 @@ footer{
 	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
-	font-size:8px;
+	font-size:7px;
 }
 .topnav a:hover {
 	background-color: #e6e6e6;
@@ -186,7 +187,7 @@ footer{
 	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
-	font-size:13px;
+	font-size:11px;
 }
 .toppestnav a:hover {
 	background-color: #e6e6e6;
