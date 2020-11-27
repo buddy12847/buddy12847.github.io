@@ -163,7 +163,7 @@ footer{
 	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
-	font-size:7px;
+	font-size:small;
 }
 .topnav a:hover {
 	background-color: #e6e6e6;
@@ -187,7 +187,7 @@ footer{
 	padding: 5px 10px;
 	text-decoration: none;
 	color: black;
-	font-size:10px;
+	font-size:x-small;
 }
 .toppestnav a:hover {
 	background-color: #e6e6e6;
