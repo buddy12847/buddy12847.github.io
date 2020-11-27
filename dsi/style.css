@@ -15,7 +15,10 @@ h2 {text-align: center;
 p {text-align: center;
 	font-size:x-small;
 }
-
+.toppestnav{
+	text-align:center;
+	font-size:small;
+}
 div{margin:0;}
 
 hr{margin:0; line-height:0;}
