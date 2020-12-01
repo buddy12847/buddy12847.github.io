@@ -89,7 +89,7 @@ function sendMessage() {
 request.setRequestHeader('Content-type', 'application/json');
 
       var params = {
-        content: month + day + "-GY" + year + "\n    " + hour + ":" + minute
+        content: month + day + "-GY" + year
       }
 
       request.send(JSON.stringify(params));
