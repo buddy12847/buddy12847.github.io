@@ -75,23 +75,11 @@ if(currentMonth>3 || curentMonth==3 && currentDay>4){
 }
 // End of year finding
 
-// Something I made to spit out UTC+12 //
-
-var hour = d.getHours();
-if(tzoff !=12 && hour > 12){
-	hour = hour - (12-tzoff);
-	
-}
-if (tzoff !=12 && hour < 12){
-	hour = hour + (12+tzoff);
-}
 // Below subtracts 1 if before 6am
 if(tzoff!=12 && currentHour < 6){
 	day=day-1;
 	
 }
-var minute = ('0'+d.getMinutes()).slice(-2);
-document.getElementById("p2").innerHTML = hour + ":" + minute;
 
 // Below exports the day formatted to the correct format into a paragraph with the id of "p1".
 document.getElementById("p1").innerHTML = month + day + "-GY" + year;
