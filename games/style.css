@@ -31,7 +31,7 @@ main{
 #rightbar{
 	grid-area: rightbar;
 	text-align: center;
-	margin-right:10%;
+	margin-right:5%;
 }
 #rightbar img{
 	width:200px;
