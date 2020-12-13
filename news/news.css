@@ -22,7 +22,6 @@
 	grid-gap: .5rem;
 }
 .container h2 {
-	font-size:1.5em;
 	line-height: 0;
 	text-decoration: none;
 }
@@ -61,6 +60,7 @@ main{
 	text-align:center;
 }
 main h2{
+	font-size:25px;
 }
 main img{
 	float:left;
@@ -88,6 +88,9 @@ footer{
 	width: 77%;
 	max-width:77%;
 	height: auto;
+}
+#content1 h2{
+	font-size:18px;
 }
 
 #content2{
@@ -191,9 +194,6 @@ footer{
 }
 	
 @media only screen and (max-width: 1200px){
-	.container h2{
-		font-size:1em;
-	}
 
 }
 @media only screen and (max-width: 770px){
@@ -237,9 +237,6 @@ footer{
 	#title img{
 		width: 330px;
 	}
-	.container h2{
-		font-size:.75em;
-	}
 	.topnav a {
 		float: left;
 		text-align: center;
@@ -247,7 +244,11 @@ footer{
 		text-decoration: none;
 		color: black;
 		font-size:12px;
-	}			
+	}
+	main h2 {
+		font-size:20px;
+		
+	}
 }
 @media only screen and (max-width: 500px){
 	.toppestnav a {
