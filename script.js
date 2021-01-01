@@ -51,7 +51,7 @@ if (month == "D" && currentMonth !== 0){
 	day = datediff(parseDate("10/31/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
 }
 if (month == "D" && currentMonth == 0){
-	day = datediff(parseDate("1/1/" + currentYear) + 1, parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
+	day = 62 + datediff(parseDate("1/1/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
 }
 if (month == "C"){
 	day = datediff(parseDate("1/9/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
@@ -67,7 +67,7 @@ if (month == "R"){
 var tzoff = d.getTimezoneOffset() / 60;
 // Find year
 var year;
-if(currentMonth>3 || curentMonth==3 && currentDay>4){
+if( currentMonth > 3 || currentMonth==3 && currentDay>4){
 	year = currentYear - 2017;
 	
 } else {
