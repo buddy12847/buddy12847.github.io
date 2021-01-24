@@ -95,30 +95,48 @@ footer{
 #content2{
 	background: #e6e6e6;
 	grid-area: content2;
+	text-align: center;
+}
+#content2 img{
+	float: center;
+	padding-bottom: 1%;
+	width: 73%;
+	max-width:77%;
+	height: auto;
+}
+#content2 h2{
+	font-size:18px;
 }
 #content3{
 	background: #e6e6e6;
 	grid-area: content3;
+	text-align: center;
 }
+
 #content4{
 	background: #e6e6e6;
 	grid-area: content4;
+	text-align: center;
 }
 #content5{
 	background: #e6e6e6;
 	grid-area: content5;
+	text-align: center;
 }
 #content6{
 	background: #e6e6e6;
 	grid-area: content6;
+	text-align: center;
 }
 #content7{
 	background: #e6e6e6;
 	grid-area: content7;
+	text-align: center;
 }
 #content8{
 	background: #e6e6e6;
 	grid-area: content8;
+	text-align: center;
 }
 #body{
 	margin-left:30%;
