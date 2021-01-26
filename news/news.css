@@ -7,7 +7,7 @@
 .container {
 	background-color: #FFFFFF;
 	display:grid;
-	height:100vh;
+	height:98vh;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: .1fr .5fr .1fr 2fr 1.5fr 1.5fr 1.5fr .5fr;
 	grid-template-areas:
@@ -66,13 +66,15 @@ main img{
 	float:left;
 	padding-left: 5%;
 	padding-bottom: 1%;
-	width: 90%;
+	width: 88%;
 	max-width:98%;
 }
 
 footer{
 	grid-area: footer;
 	background: #e6e6e6;
+	text-align: center;
+	padding-top:15px;
 
 }
 
@@ -84,7 +86,7 @@ footer{
 #content1 img{
 	float: center;
 	padding-bottom: 1%;
-	width: 73%;
+	width: 71%;
 	max-width:77%;
 	height: auto;
 }
@@ -100,7 +102,7 @@ footer{
 #content2 img{
 	float: center;
 	padding-bottom: 1%;
-	width: 73%;
+	width: 71%;
 	max-width:77%;
 	height: auto;
 }
@@ -273,7 +275,7 @@ footer{
 	}
 }
 
-.footer {
+footer {
 				position: fixed;
 				text-align: center;
 				bottom: 0;
