@@ -66,7 +66,7 @@ main img{
 	float:left;
 	padding-left: 5%;
 	padding-bottom: 1%;
-	width: 88%;
+	width: 86%;
 	max-width:98%;
 }
 
@@ -86,7 +86,7 @@ footer{
 #content1 img{
 	float: center;
 	padding-bottom: 1%;
-	width: 71%;
+	width: 69%;
 	max-width:77%;
 	height: auto;
 }
@@ -102,7 +102,7 @@ footer{
 #content2 img{
 	float: center;
 	padding-bottom: 1%;
-	width: 71%;
+	width: 69%;
 	max-width:77%;
 	height: auto;
 }
@@ -113,6 +113,16 @@ footer{
 	background: #e6e6e6;
 	grid-area: content3;
 	text-align: center;
+}
+#content3 img{
+	float: center;
+	padding-bottom: 1%;
+	width: 60%;
+	max-width:60%;
+	height: auto;
+}
+#content3 h2{
+	font-size:18px;
 }
 
 #content4{
