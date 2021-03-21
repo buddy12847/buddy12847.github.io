@@ -34,7 +34,7 @@ if (currentMonth == 10 || currentMonth == 11 || currentMonth == 0 && currentDay 
 if (currentMonth == 0 && currentDay > 9 || currentMonth == 1 || currentMonth == 2 && currentDay < 22){
 	var month = "C";
 }
-if (currentMonth == 2 && currentDay > 21 || currentMonth == 3 && currentDay < 5){
+if (currentMonth == 2 && currentDay > 20 || currentMonth == 3 && currentDay < 5){
 	var month = "R";
 }
 // Finds out the day.//
@@ -57,7 +57,7 @@ if (month == "C"){
 	day = datediff(parseDate("1/9/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
 }
 if (month == "R"){
-	day = datediff(parseDate("3/21/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
+	day = datediff(parseDate("3/20/" + currentYear), parseDate(currentMonth + 1 + "/" + currentDay + "/" + currentYear))
 }
 // End of day finding
 
