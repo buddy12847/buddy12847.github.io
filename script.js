@@ -207,8 +207,11 @@ if (month == "C" && day == 70){
 if (month == "R" && day == 1){
 	document.getElementById("p2").innerHTML = "Today marks the first day of the month of Repentance. Repent your sins to Garfunkel as the year comes to a close.";
 }
+if (month == "R" && day == 11){
+	document.getElementById("p2").innerHTML = "Happy Yahoo Japan Day! Yahoo Japan is " + (currentYear - 1996) + " years old today.";
+}
 if (month == "R" && day == 15){
-	document.getElementById("p2").innerHTML = "Today marks the final day of the month of Repentance and New Year's Eve. Garfunkel Year " + year + " comes to an end today as we enter into a new year.";
+	document.getElementById("p2").innerHTML = "Today marks New Year's Eve. Garfunkel Year " + year + " comes to an end today as we enter into a new year.";
 }
 
 // Below
