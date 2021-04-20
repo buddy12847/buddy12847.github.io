@@ -90,7 +90,7 @@ if (month == "G" && day == 6){
 if (month == "G" && day == 16){
 	document.getElementById("p2").innerHTML = "Happy Racism Day!";
 }
-if (month == "G" && day == 16){
+if (month == "G" && day == 55){
 	document.getElementById("p2").innerHTML = "Happy Jesse Dotson Day! He is " + (currentYear - 2005) + " years old today.";
 }
 if (month == "G" && day == 59){
