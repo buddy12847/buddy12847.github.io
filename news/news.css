@@ -5,12 +5,12 @@
 }
 
 body {
-	background-color: #99d5ff;
+	background-color: #cceaff;
 
 }
 
 .container {
-	background-color: #0094ff;
+	background-color: #cceaff;
 	display:grid;
 	height:130vh;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -44,7 +44,7 @@ nav{
 	grid-area: title;
 }
 #title img{
-	width:350px;
+	width:250px;
 }
 #titlenews{
 	padding:0;
@@ -60,7 +60,7 @@ header{
 	grid-area: header;
 }
 main{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: main;
 	text-align:center;
 }
@@ -77,14 +77,14 @@ main img{
 
 footer{
 	grid-area: footer;
-	background: #0086e6;
+	background: #99d5ff;
 	text-align: center;
 	padding-top:15px;
 
 }
 
 #content1{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content1;
 	text-align: center;
 }
@@ -100,7 +100,7 @@ footer{
 }
 
 #content2{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content2;
 	text-align: center;
 }
@@ -115,7 +115,7 @@ footer{
 	font-size:18px;
 }
 #content3{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content3;
 	text-align: center;
 }
@@ -131,22 +131,22 @@ footer{
 }
 
 #content4{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content4;
 	text-align: center;
 }
 #content5{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content5;
 	text-align: center;
 }
 #content6{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content6;
 	text-align: center;
 }
 #content7{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content7;
 	text-align: center;
 }
@@ -182,7 +182,7 @@ footer{
 
 
 .topnav {
-	background-color: #0094ff;
+	background-color: #cceaff;
 	overflow: hidden;
 	border-style: inset;
 	border-color: #0086e6;
@@ -195,16 +195,16 @@ footer{
 	color: black;
 }
 .topnav a:hover {
-	background-color: #0086e6;
+	background-color: #b3dfff;
 
 }
 .topnav a.active {
-	background-color: #0077cc;
+	background-color: #99d5ff;
 	color: black;
 }			
 /* Nav */
 .toppestnav {
-	background-color: #0094ff;
+	background-color: #cceaff;
 	overflow: hidden;
 	border-style: inset;
 	border-color: #0086e6;
@@ -217,11 +217,11 @@ footer{
 	color: black;
 }
 .toppestnav a:hover {
-	background-color: #0086e6;
+	background-color: #b3dfff;
 
 }
 .toppestnav a.active {
-	background-color: #0077cc;
+	background-color: #99d5ff;
 	color: black;
 }
 
