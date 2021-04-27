@@ -151,7 +151,7 @@ footer{
 	text-align: center;
 }
 #content8{
-	background: #0086e6;
+	background: #99d5ff;
 	grid-area: content8;
 	text-align: center;
 }
@@ -185,7 +185,7 @@ footer{
 	background-color: #cceaff;
 	overflow: hidden;
 	border-style: inset;
-	border-color: #0086e6;
+	border-color: #99d5ff;
 }
 .topnav a {
 	float: left;
@@ -207,7 +207,7 @@ footer{
 	background-color: #cceaff;
 	overflow: hidden;
 	border-style: inset;
-	border-color: #0086e6;
+	border-color: #99d5ff;
 }
 .toppestnav a {
 	float: left;
