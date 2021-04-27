@@ -44,7 +44,7 @@ nav{
 	grid-area: title;
 }
 #title img{
-	width:300px;
+	width:320px;
 }
 #titlenews{
 	padding:0;
@@ -53,7 +53,7 @@ nav{
 	grid-area: title;
 }
 #titlenews img{
-	width:23px;
+	width:300px;
 }
 
 header{
