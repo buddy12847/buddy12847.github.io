@@ -11,7 +11,7 @@ body {
 .container {
 	background-color: #0094ff;
 	display:grid;
-	height:98vh;
+	height:150vh;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: .1fr .5fr .1fr 2fr 1.5fr 1.5fr 1.5fr .5fr;
 	grid-template-areas:
