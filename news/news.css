@@ -4,10 +4,6 @@
 
 }
 
-body {
-	background-color: #33aaff;
-}
-
 .container {
 	background-color: #0094ff;
 	display:grid;
@@ -157,6 +153,7 @@ footer{
 #body{
 	margin-left:30%;
 	margin-right:30%;
+	background-color: #99d5ff;
 
 }
 #body p{
