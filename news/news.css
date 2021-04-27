@@ -55,7 +55,7 @@ header{
 	grid-area: header;
 }
 main{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: main;
 	text-align:center;
 }
@@ -72,14 +72,14 @@ main img{
 
 footer{
 	grid-area: footer;
-	background: #80caff;
+	background: #0086e6;
 	text-align: center;
 	padding-top:15px;
 
 }
 
 #content1{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content1;
 	text-align: center;
 }
@@ -95,7 +95,7 @@ footer{
 }
 
 #content2{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content2;
 	text-align: center;
 }
@@ -110,7 +110,7 @@ footer{
 	font-size:18px;
 }
 #content3{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content3;
 	text-align: center;
 }
@@ -126,27 +126,27 @@ footer{
 }
 
 #content4{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content4;
 	text-align: center;
 }
 #content5{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content5;
 	text-align: center;
 }
 #content6{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content6;
 	text-align: center;
 }
 #content7{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content7;
 	text-align: center;
 }
 #content8{
-	background: #80caff;
+	background: #0086e6;
 	grid-area: content8;
 	text-align: center;
 }
@@ -177,7 +177,7 @@ footer{
 
 
 .topnav {
-	background-color: #FFFFFF;
+	background-color: #0094ff;
 	overflow: hidden;
 	border-style: inset;
 	border-color: #d9d9d9;
@@ -190,16 +190,16 @@ footer{
 	color: black;
 }
 .topnav a:hover {
-	background-color: #e6e6e6;
+	background-color: #0086e6;
 
 }
 .topnav a.active {
-	background-color: #cccccc;
+	background-color: #0077cc;
 	color: black;
 }			
 /* Nav */
 .toppestnav {
-	background-color: #FFFFFF;
+	background-color: #0094ff;
 	overflow: hidden;
 	border-style: inset;
 	border-color: #d9d9d9;
@@ -212,11 +212,11 @@ footer{
 	color: black;
 }
 .toppestnav a:hover {
-	background-color: #e6e6e6;
+	background-color: #0086e6;
 
 }
 .toppestnav a.active {
-	background-color: #cccccc;
+	background-color: #0077cc;
 	color: black;
 }
 
