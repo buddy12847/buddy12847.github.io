@@ -44,7 +44,7 @@ nav{
 	grid-area: title;
 }
 #title img{
-	width:250px;
+	width:100px;
 }
 #titlenews{
 	padding:0;
