@@ -5,7 +5,7 @@
 }
 
 .container {
-	background-color: #FFFFFF;
+	background-color: #0094ff;
 	display:grid;
 	height:98vh;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -55,7 +55,7 @@ header{
 	grid-area: header;
 }
 main{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: main;
 	text-align:center;
 }
@@ -72,14 +72,14 @@ main img{
 
 footer{
 	grid-area: footer;
-	background: #e6e6e6;
+	background: #80caff;
 	text-align: center;
 	padding-top:15px;
 
 }
 
 #content1{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content1;
 	text-align: center;
 }
@@ -95,7 +95,7 @@ footer{
 }
 
 #content2{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content2;
 	text-align: center;
 }
@@ -110,7 +110,7 @@ footer{
 	font-size:18px;
 }
 #content3{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content3;
 	text-align: center;
 }
@@ -126,27 +126,27 @@ footer{
 }
 
 #content4{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content4;
 	text-align: center;
 }
 #content5{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content5;
 	text-align: center;
 }
 #content6{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content6;
 	text-align: center;
 }
 #content7{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content7;
 	text-align: center;
 }
 #content8{
-	background: #e6e6e6;
+	background: #80caff;
 	grid-area: content8;
 	text-align: center;
 }
