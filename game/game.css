@@ -31,11 +31,9 @@ p {
 }
 /* Nav */
 .toppestnav {
-	background-color: #000000;
+	background-color: #1a1a1a;
 	overflow: hidden;
-	border-style: inset;
-	border-color: white;
-	margin:8px;
+	padding:8px;
 }
 .toppestnav a {
 	float: left;
@@ -43,11 +41,6 @@ p {
 	padding: 5px 15px;
 	text-decoration: none;
 	color: white;
-}
-.toppestnav a:hover {
-	background-color: #262626;}
-.toppestnav a.active {
-	background-color: #1a1a1a;
 }
 @media only screen and (max-width: 500px){
 	.toppestnav a {
@@ -61,8 +54,8 @@ p {
 	bottom: 0;
 	padding-bottom:15px;
 	padding-top:15px;
-	color: black;
-	background-color: #cccccc;
+	color: white;
+	background-color: #1a1a1a;
 	width:100%;
 	}		
 .footerbtm {
@@ -72,7 +65,7 @@ p {
 .footertxt a {
 	font-size:12px;
 	text-decoration:none;
-	color: black;
+	color: white;
 }
 .logo {
 	padding:15px;
