@@ -5,12 +5,16 @@
 }
 
 body {
-	background-color: #cceaff;
+	background-color: #0094FF;
+	margin:0;
 
 }
-
+body h2 {
+	color: white;
+	
+}
 .container {
-	background-color: #cceaff;
+	background-color: #0094FF;
 	display:grid;
 	height:130vh;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -60,7 +64,7 @@ header{
 	grid-area: header;
 }
 main{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: main;
 	text-align:center;
 }
@@ -75,16 +79,29 @@ main img{
 	max-width:98%;
 }
 
-footer{
+.footer {
 	grid-area: footer;
-	background: #99d5ff;
+	display: block;	
 	text-align: center;
+	bottom: 0;
+	padding-bottom:15px;
 	padding-top:15px;
-
+	color: white;
+	background-color: #0077cc;
+	width:100%;
+	}		
+.footerbtm {
+	font-size:10px;
+	
+}
+.footertxt a {
+	font-size:12px;
+	text-decoration:none;
+	color: white;
 }
 
 #content1{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content1;
 	text-align: center;
 }
@@ -100,7 +117,7 @@ footer{
 }
 
 #content2{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content2;
 	text-align: center;
 }
@@ -115,7 +132,7 @@ footer{
 	font-size:18px;
 }
 #content3{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content3;
 	text-align: center;
 }
@@ -131,38 +148,38 @@ footer{
 }
 
 #content4{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content4;
 	text-align: center;
 }
 #content5{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content5;
 	text-align: center;
 }
 #content6{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content6;
 	text-align: center;
 }
 #content7{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content7;
 	text-align: center;
 }
 #content8{
-	background: #99d5ff;
+	background: #0077cc;
 	grid-area: content8;
 	text-align: center;
 }
 #body{
-	margin-left:30%;
-	margin-right:30%;
+	padding-left:30%;
+	padding-right:30%;
 
 }
 #body p{
 	line-height:1.66667;
-	color:#333333;
+	color:white;
 	}
 #body img{
 	float:left;
@@ -173,56 +190,44 @@ footer{
 	text-align:center;
 	font-size:20px;
 	line-height:0;	
+	color: white;
 }
 #body h5{
 	text-align:center;
 	line-height:0;
+	color: white;
 	
 }
 
 
 .topnav {
-	background-color: #99d5ff;
+	background-color: #0077cc;
 	overflow: hidden;
-	border-style: inset;
-	border-color: #66bfff;
+	padding:8px;
+	padding-left:60px;
 }
 .topnav a {
 	float: left;
 	text-align: center;
-	padding: 5px 10px;
+	padding: 5px 15px;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
-.topnav a:hover {
-	background-color: #66bfff;
-
-}
-.topnav a.active {
-	background-color: #4db5ff;
-	color: black;
-}			
+		
 /* Nav */
 .toppestnav {
-	background-color: #99d5ff;
+	background-color: #0077cc;
 	overflow: hidden;
-	border-style: inset;
-	border-color: #66bfff;
+	padding:8px;
+	padding-left:60px;
+
 }
 .toppestnav a {
 	float: left;
 	text-align: center;
 	padding: 5px 15px;
 	text-decoration: none;
-	color: black;
-}
-.toppestnav a:hover {
-	background-color: #66bfff;
-
-}
-.toppestnav a.active {
-	background-color: #4db5ff;
-	color: black;
+	color: white;
 }
 
 @media only screen and (max-width: 1400px){
