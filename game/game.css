@@ -7,8 +7,6 @@ h1 {text-align: center;
 	margin: 10px;
 }
 img {
- margin: 10px;
- margin-bottom: 0;
 
 }
 p {text-align: center;
@@ -71,11 +69,15 @@ p {
 	margin-top:5%;
 	
 }
+.logo img {
+	 margin: 10px;
+}
 .urlogo {
 	display: inline;
 }
 .urlogo img {
 	width:150px;
+	 margin: 10px;
 	
 }
 .center {
