@@ -173,8 +173,8 @@ main img{
 	text-align: center;
 }
 #body{
-	padding-left:30%;
-	padding-right:30%;
+	padding-left:34.375em;
+	padding-right:34.375em;
 
 }
 #body p{
@@ -207,6 +207,7 @@ main img{
 	padding-left:60px;
 }
 .topnav a {
+	font-family: Helvetica;
 	float: left;
 	text-align: center;
 	padding: 5px 15px;
@@ -216,13 +217,14 @@ main img{
 		
 /* Nav */
 .toppestnav {
-	background-color: #0077cc;
+	background-color: #1a1a1a;
 	overflow: hidden;
 	padding:8px;
 	padding-left:60px;
 
 }
 .toppestnav a {
+	font-family: Helvetica;
 	float: left;
 	text-align: center;
 	padding: 5px 15px;

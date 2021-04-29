@@ -1,6 +1,6 @@
 body{
 	min-height: 400px;
-	background-color: #000000;
+	background-color: #D30000;
 	margin:0;
 }
 h1 {text-align: center;
@@ -35,15 +35,30 @@ p {
 	padding-left:60px;
 }
 .toppestnav a {
-	font-family: Helvetica;
 	float: left;
 	text-align: center;
 	padding: 5px 15px;
 	text-decoration: none;
 	color: white;
+	font-family: Helvetica;
+}
+/* Top Nav */
+.topnav {
+	background-color: #800000;
+	overflow: hidden;
+	padding:8px;
+	padding-left:60px;
+}
+.topnav a {
+	float: left;
+	text-align: center;
+	padding: 5px 15px;
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
 }
 @media only screen and (max-width: 500px){
-	.toppestnav a {
+	.topnav a {
 	font-size:13.5px;
 	}
 }		
@@ -55,7 +70,7 @@ p {
 	padding-bottom:15px;
 	padding-top:15px;
 	color: white;
-	background-color: #1a1a1a;
+	background-color: #800000;
 	width:100%;
 	}		
 .footerbtm {
@@ -86,5 +101,59 @@ p {
 .center {
 	margin-left:auto;
 	margin-right:auto;
+	
+}
+
+.programs {
+	display: inline;
+	margin-left:6.25em;
+	margin-right:auto;
+	padding:.5em;
+	text-align: center;
+	float:left;
+	font-size:25px;
+	background-color:#800000;
+	
+}
+.programs a {
+	text-decoration:none;
+	font-weight: bold;
+	color: white;
+	font-family: Arial Black;
+}
+.programs img {
+	width: 400px;
+	
+}
+.urlogo img {
+	width:150px;
+	 margin: 10px;
+	
+}
+
+#gotable table {
+	border: 3px solid black;
+	margin-left:auto;
+	margin-right:18.5em;
+	border-collapse: collapse;
+	background-color: white;
+	
+}
+#gotable tr {
+	border: 3px solid black;
+	
+}
+#gotable td {
+	border: 3px solid black;
+	padding:5px;
+}
+#gotable th {
+	border: 3px solid black;
+	padding:5px;
+	
+}
+#gotable a {
+	text-decoration:none;
+	color:black;
 	
 }
