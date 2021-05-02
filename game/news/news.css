@@ -16,7 +16,7 @@ body h2 {
 .container {
 	background-color: #0094FF;
 	display:grid;
-	height:130vh;
+	height:1100px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: .1fr .5fr .1fr 2fr 1.5fr 1.5fr 1.5fr .5fr;
 	grid-template-areas:
@@ -48,7 +48,7 @@ nav{
 	grid-area: title;
 }
 #title img{
-	width:400px;
+	width:20%;
 }
 #titlenews{
 	padding:0;
@@ -64,19 +64,23 @@ header{
 	grid-area: header;
 }
 main{
+	margin-left:.5rem;
 	background: #0077cc;
 	grid-area: main;
 	text-align:center;
+	overflow:hidden
 }
 main h2{
-	font-size:25px;
+	font-size:1.4vw;
+	margin-top:4vh;
+	margin-bottom:3vh;
+	font-weight:bold;
 }
 main img{
-	float:left;
-	padding-left: 5%;
+	margin-left:auto;
+	margin-right:auto;
 	padding-bottom: 1%;
-	width: 86%;
-	max-width:98%;
+	width: 92%;
 }
 
 .footer {
@@ -104,73 +108,143 @@ main img{
 	background: #0077cc;
 	grid-area: content1;
 	text-align: center;
+	overflow:hidden
 }
 #content1 img{
-	float: center;
+	margin-left:auto;
+	margin-right:auto;
 	padding-bottom: 1%;
-	width: 69%;
-	max-width:77%;
-	height: auto;
+	width: 76%;
 }
 #content1 h2{
-	font-size:18px;
+	font-size:1.1vw;
+	margin-top:4vh;
+	margin-bottom:3vh;
 }
 
 #content2{
+	margin-right:.5rem;
 	background: #0077cc;
 	grid-area: content2;
 	text-align: center;
+	overflow:hidden
 }
 #content2 img{
-	float: center;
+	margin-left:auto;
+	margin-right:auto;
 	padding-bottom: 1%;
-	width: 69%;
-	max-width:77%;
-	height: auto;
+	width: 76%;
 }
 #content2 h2{
-	font-size:18px;
+	font-size:1.1vw;
+	margin-top:4vh;
+	margin-bottom:3vh;
 }
 #content3{
+	margin-left:.5rem;
 	background: #0077cc;
 	grid-area: content3;
 	text-align: center;
+	overflow:hidden
 }
 #content3 img{
-	float: center;
+	margin-left:auto;
+	margin-right:auto;
 	padding-bottom: 1%;
-	width: 60%;
-	max-width:60%;
-	height: auto;
+	width: 70%;
 }
 #content3 h2{
-	font-size:18px;
+	font-size:1vw;
+	margin-top:2vh;
+	margin-bottom:1.5vh;
 }
 
 #content4{
 	background: #0077cc;
 	grid-area: content4;
 	text-align: center;
+	overflow:hidden
+}
+#content4 img{
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 1%;
+	width: 70%;
+}
+#content4 h2{
+	font-size:1vw;
+	margin-top:2vh;
+	margin-bottom:1.5vh;
 }
 #content5{
 	background: #0077cc;
 	grid-area: content5;
 	text-align: center;
+	overflow:hidden
+}
+#content5 img{
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 1%;
+	width: 76%;
+}
+#content5 h2{
+	font-size:1.1vw;
+	margin-top:4vh;
+	margin-bottom:3vh;
 }
 #content6{
+	margin-left:.5rem;
 	background: #0077cc;
 	grid-area: content6;
 	text-align: center;
+	overflow:hidden
+}
+#content6 img{
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 1%;
+	width: 70%;
+}
+#content6 h2{
+	font-size:1vw;
+	margin-top:2vh;
+	margin-bottom:1.5vh;
 }
 #content7{
 	background: #0077cc;
 	grid-area: content7;
 	text-align: center;
+	overflow:hidden
+}
+#content7 img{
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 1%;
+	width: 70%;
+}
+#content7 h2{
+	font-size:1vw;
+	margin-top:2vh;
+	margin-bottom:1.5vh;
 }
 #content8{
+	margin-right:.5rem;
 	background: #0077cc;
 	grid-area: content8;
 	text-align: center;
+	overflow:hidden
+}
+#content8 img{
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom: 1%;
+	width: 76%;
+}
+#content8 h2{
+	font-size:1.1vw;
+	margin-top:4vh;
+	margin-bottom:3vh;
 }
 #body{
 	padding-left:34.375em;
@@ -198,7 +272,6 @@ main img{
 	color: white;
 	
 }
-
 
 .topnav {
 	background-color: #0077cc;
@@ -232,17 +305,10 @@ main img{
 	color: white;
 }
 
-@media only screen and (max-width: 1400px){
-	}
-}
-	
-@media only screen and (max-width: 1200px){
-
-}
 @media only screen and (max-width: 770px){
 	.container{
 		grid-template-columns: 1fr;
-		grid-template-rows: .1fr .5fr .1fr 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr .5fr;
+		grid-template-rows: .1fr .5fr .1fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr 2fr .5fr;
 		grid-template-areas:
 		"nav"
 		"title"
@@ -257,48 +323,43 @@ main img{
 		"content7"
 		"content8"
 		"footer";
+		height:2000px;
 		
 	}
-	#content1 img{
-		width: 30%;
-
+	#title img {
+		width:10rem;
+	}
+	main {
+		margin-left:0;
+	}
+	#content3 {
+		margin-left:0;
+	}
+	#content2 {
+		margin-right:0;
+	}
+	#content6 {
+		margin-left:0;
+	}
+	.container h2 {
+		font-size:1rem;
+	}
+	.toppestnav {
+	background-color: #1a1a1a;
+	overflow: hidden;
+	padding:8px;
+	padding-left:.5rem;
+	}
+	.toppestnav img {
+		height:1.25rem;
+	}
+	.topnav {
+	background-color: #0077cc;
+	overflow: hidden;
+	padding:8px;
+	padding-left:3rem;
 }
-@media only screen and (max-width: 500px){
-	#body {
-		margin-left:10%;
-		margin-right:10%;
-		font-size:14px;
-	}
-	#body h3{
-		font-size:14px;
-	}
-
-	#body img{
-		width:100%;
-		padding-bottom:10px;
-	}
-	#title img{
-		width: 330px;
-	}
-	.topnav a {
-		float: left;
-		text-align: center;
-		padding: 5px 15px;
-		text-decoration: none;
-		color: black;
-		font-size:12px;
-	}
-	main h2 {
-		font-size:20px;
-		
-	}
 }
-@media only screen and (max-width: 500px){
-	.toppestnav a {
-	font-size:13.5px;
-	}
-}
-
 footer {
 				position: fixed;
 				text-align: center;
