@@ -217,26 +217,10 @@ if (month == "R" && day == 15){
 // Below
 // exports the day formatted to the correct format into a paragraph with the id of "p1".
 document.getElementById("p1").innerHTML = month + day + "-GY" + year;
-function sendMessage() {
-      var request = new XMLHttpRequest();
-      request.open("POST", "https://discord.com/api/webhooks/781073554459328523/AGJNzngIf0ucxs5LYufzFmL2dUys50xFSiWmGbtnb_QSt9-K0UQ7zzKHAmwEuVnbL3b6");
-request.setRequestHeader('Content-type', 'application/json');
-
-      var params = {
-        content: month + day + "-GY" + year + "\n   " + "00:00"
-      }
-
-      request.send(JSON.stringify(params));
-    }
+{}
 
 
-String channelSecret = 'dfcfd8983446a76d41228b0a1d6906d5'; // Channel secret string
-String httpRequestBody = '...'; // Request body string
-SecretKeySpec key = new SecretKeySpec(channelSecret.getBytes(), "HmacSHA256");
-Mac mac = Mac.getInstance("HmacSHA256");
-mac.init(key);
-byte[] source = httpRequestBody.getBytes("UTF-8");
-String signature = Base64.encodeBase64String(mac.doFinal(source));
+
 
 
 
