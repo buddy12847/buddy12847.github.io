@@ -71,7 +71,7 @@ p {
 }
 /* Nav */
 .toppestnav {
-	background-color: #b3b3ff;
+	background-color: #c491ee;
 	overflow: hidden;
 	border-style: inset;
 	border-color: white;
@@ -85,9 +85,9 @@ p {
 	color: black;
 }
 .toppestnav a:hover {
-	background-color: #9999ff;}
+	background-color: #b87bea;}
 .toppestnav a.active {
-	background-color: #8080ff;
+	background-color: #ac65e7;
 	color: white;
 }
 @media only screen and (max-width: 500px){
