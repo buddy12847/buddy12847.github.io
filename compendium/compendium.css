@@ -5,17 +5,22 @@ margin:0;
 height: auto;
 min-height: 1500px;
 }
-h2 {text-align: center;}
+h2 {text-align: center;
+font-size:30px;}
 h3 {text-align: center;}
 p {}
 div {}
 main {text-align: center;
 	overflow: auto;
-	margin-right:17%;
 }
-p {
+
+#compendium p {
 	margin-right: 10%;
 	margin-left: 10%;
+}
+#compendium {
+	
+	margin-right:17%;
 }
 .infobox {
 	right:2%;
