@@ -3,6 +3,7 @@
 body {
 margin:0;
 height: auto;
+min-height: 1500px;
 }
 h2 {text-align: center;}
 h3 {text-align: center;}
@@ -99,10 +100,10 @@ p {
 	}
 }
 .footer {
-				position: absolute;
+				position: fixed;
 				display: block;	
 				text-align: center;
-				bottom: -100px;
+				bottom: 0;
 				padding-bottom:15px;
 				padding-top:15px;
 				color: black;
