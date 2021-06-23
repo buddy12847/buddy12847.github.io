@@ -1,21 +1,24 @@
 #body{
-	min-height: 400px;
 }
 body {
 margin:0;
+height: auto;
 }
 h2 {text-align: center;}
 h3 {text-align: center;}
 p {}
 div {}
-main {text-align: center;}
+main {text-align: center;
+	overflow: auto;
+	margin-right:10%;
+}
 p {
 	margin-right: 10%;
 	margin-left: 10%;
 }
 .infobox {
 	right:2%;
-	position: fixed;
+	position: absolute;
 	width: 275px;
 	border-style:solid;
 	border-width:2px;
@@ -96,21 +99,22 @@ p {
 	}
 }
 .footer {
-	display: block;	
-	text-align: center;
-	bottom: 0;
-	padding-bottom:15px;
-	padding-top:15px;
-	color: black;
-	background-color: #cccccc;
-	width:100%;
-}		
-.footerbtm {
-	font-size:10px;
-	
-}
-.footertxt a {
-	font-size:12px;
-	text-decoration:none;
-	color: black;
-}
+				position: absolute;
+				display: block;	
+				text-align: center;
+				bottom: -100px;
+				padding-bottom:15px;
+				padding-top:15px;
+				color: black;
+				background-color: #cccccc;
+				width:100%;
+			}		
+			.footerbtm {
+				font-size:10px;
+				
+			}
+			.footertxt a {
+				font-size:12px;
+				text-decoration:none;
+				color: black;
+			}

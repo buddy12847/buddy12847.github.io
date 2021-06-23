@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="About Garfunkel and Garfunkia">
+		<title>Holy Temple of Garfunkia</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style>
+			#body{
+				min-height: 400px;
+			}
+			body {
+			margin:0;
+			}
+			h2 {text-align: center;}
+			p {text-align: center;}
+			div {text-align: center;}
+			p {
+				margin-right: 10%;
+				margin-left: 10%;
+			}
+			/* Nav */
+			.toppestnav {
+				background-color: #c491ee;
+				overflow: hidden;
+				border-style: inset;
+				border-color: white;
+				margin:8px;
+			}
+			.toppestnav a {
+				float: left;
+				text-align: center;
+				padding: 5px 15px;
+				text-decoration: none;
+				color: black;
+			}
+			.toppestnav a:hover {
+				background-color: #b87bea;}
+			.toppestnav a.active {
+				background-color: #ac65e7;
+				color: white;
+			}
+			@media only screen and (max-width: 500px){
+				.toppestnav a {
+				font-size:13.5px;
+				}
+			}
+			.footer {
+				position: fixed;
+				display: block;	
+				text-align: center;
+				bottom: 0;
+				padding-bottom:15px;
+				padding-top:15px;
+				color: black;
+				background-color: #cccccc;
+				width:100%;
+			}		
+			.footerbtm {
+				font-size:10px;
+				
+			}
+			.footertxt a {
+				font-size:12px;
+				text-decoration:none;
+				color: black;
+			}
+			span {
+				text-decoration:overline; 
+				font-weight:bold;
+
+			}
+		</style>
+		<link rel="icon" href="favicon.ico">
+	</head>
+	<body style="background-color:#c491ee";>
+		<header>
+			<div class="toppestnav">
+				<a href="https://www.garfunkia.org">Home</a>
+				<a class="active" href="https://www.garfunkia.org/about">About</a>
+				<a href="https://www.garfunkia.org/resources">Resources</a>
+				<a href="https://www.garfunkia.org/compendium">Compendium</a>
+				<a href="https://www.garfunkia.org/game/"><b>GAME</b></a>
+				<a href="https://www.garfunkia.org/extras">Extras</a>
+			</div>
+		</header>
+		<main>
+
+			<h2>About</h2>
+			<hr/>
+			<p>Garfunkel or "Γκαρφάνκελ", shortened to <span>ΓΛ</span>, created the Earth and the universe, and created his children, mankind, to occupy the Earth. Garfunkel gave his children his Holy Book of Garfunkel or "Ουράνιο Βιβλίο του Γκαρφάνκελ" (Uránio Vivlío tu Garphán'kel), shortened to <span>ΟΒΓ</span>, which included hundreds of laws, observations, and words of inspiration which were created to guide and protect Garfunkel's children from harm and degeneracy. <p>
+			<p>Garfunkel loves his children, Law 522 states, "Garfunkel loves his children, which is why he has giveth the Earth to them, for that is the law of Garfunkel." Garfunkel cares deeply about all of his children and has a plan for every one of them. Garfunkel is very understanding and gracious, no one is too far gone to be saved by Garfunkel's never ending love.</p>
+			<p>Garfunkel gave his children the nation of Garfunkia or "Γκαρφανκιά", shortened to <span>ΓΑ</span>, so they could be free to live in accordance with Garfunkel's laws and guidance without the restrictions placed upon them by foreign peoples. Garfunkia is ruled by Garfunkel's six grandchildren who comprise the High Council, or "Ουράνιο Συμβούλιο" (Uránio Symvúlio), shortened to <span>ΟΣ</span>, given to them by Garfunkel. </p>
+			<p>You can read Garfunkel's laws and the Holy Book of Garfunkel on the resources page.</p>
+		</main>
+		<div class ="footer">
+		<div class ="footertxt"><a href="https://www.garfunkia.org/game/about">| About |</a><a href="https://www.garfunkia.org/game/structure"> Company Structure |</a><a href="https://www.garfunkia.org/game/contact-us"> Contact Us |</a></div>
+		<div class ="footerbtm">© Garfunko Media Ltd. All Rights Reserved.</div>
+		</div>
+
+
+
+	</body>
+</html>
