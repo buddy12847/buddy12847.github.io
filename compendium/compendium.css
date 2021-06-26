@@ -16,13 +16,14 @@ h1 {text-align: center;
 	margin-bottom:0;
 	font-size:3vh;
 }
-h2 {text-align: center;
+h2 {
+	margin-bottom:0%;
+	text-align: center;
+	font-size:30px;
 }
 h3 {text-align: center;
 	margin: 10px;
 }
-h2 {text-align: center;
-font-size:30px;}
 h3 {text-align: center;}
 p {}
 div {}
@@ -33,17 +34,70 @@ main {text-align: center;
 main p {
 	margin-right: 15%;
 	margin-left: 15%;
+	font-size:calc(1em * 0.875);
 }
 main {
 	
 	margin-right:15%;
+	margin-left:15%;
 }
-h2 {
+.dropdown {
+  font-weight:bold;
+  display: none;
+  margin-left:10px;
+  margin-right:10px;
+  text-align:center;
+  background-color:#5e1c88;
+  color:white;
+  cursor : pointer;
+  padding:10px;
+
+}
+.dropdown2 {
+  font-weight:bold;
+  display: none;
+  margin-left:10px;
+  margin-right:10px;
+  text-align:center;
+  background-color:#5e1c88;
+  color:white;
+  cursor : pointer;
+  padding:10px;
+
+}
+.contents {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top:10%;
+	left:8%;
+	position: absolute;
+	width: 275px;
+	background-color:#5e1c88;
+	padding-bottom:10px;
+	overflow: auto;
+}
+.contents p.contenttitle {
+	text-align:center;
+	color:white;
+	margin-bottom:0;
+}
+.contents a {
+	display:block;
+	font-size:14px;
+	color:white;
+	margin-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.contents a.subcontent {
+	font-size:12px;
+	color:white;
+	margin-left:20px;
+	padding-bottom:5px;
 	
-	margin-right:15%;
 }
 .infobox {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top:10%;
 	right:8%;
 	position: absolute;
 	width: 275px;
@@ -131,6 +185,21 @@ h2 {
 @media only screen and (max-width: 500px){
 	.toppestnav a {
 	font-size:13.5px;
+	}
+	.infobox {
+		display:none;
+		right:12%;
+		top:20%;
+		
+	}
+	main {
+		margin-right:0%;
+	}
+	h2 {
+		margin-right:0%;
+	}
+	.dropdown {
+		display: block;
 	}
 }			
 .footer {
