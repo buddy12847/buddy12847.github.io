@@ -47,6 +47,10 @@ main {text-align: center;
 	overflow: auto;
 	
 }
+.infobox td {
+	text-align:left;
+	
+}
 .infobox h4 {
 	color:white;
 	text-align:center;
@@ -66,7 +70,6 @@ main {text-align: center;
 	margin-left:5px;
 	margin-top:5px;
 	font-size:12px;
-	text-align:center;
 }
 .infobox a {
 	color:white;
