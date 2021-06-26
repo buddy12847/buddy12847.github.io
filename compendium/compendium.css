@@ -194,12 +194,20 @@ main {
 	}
 	main {
 		margin-right:0%;
+		margin-left:0%;
 	}
 	h2 {
 		margin-right:0%;
 	}
 	.dropdown {
 		display: block;
+		margin-top:5%;
+	}
+	.dropdown2 {
+		margin-top:5%;
+	}
+	.contents {
+		display:none;
 	}
 }			
 .footer {
