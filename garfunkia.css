@@ -2,7 +2,6 @@
 	position: relative;
 	color:white;
 	width:55vh;
-	overflow:hidden;
 	margin-left:auto;
 	margin-right:auto;
 	display: block;
@@ -11,11 +10,12 @@
 }
 .titlecontainer img{
 	width:55vh;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	
 }
 .titletext {
 	position: absolute;
-	text-shadow: 2px 2px 5px black;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 	bottom:5px;
 	left:4.25rem;
 	
@@ -68,6 +68,7 @@ p {
 .toppestnav {
 	background-color: #5e1c88;
 	overflow: hidden;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .toppestnav a {
 	float: left;
@@ -78,6 +79,7 @@ p {
 	font-size:16px;
 	font-weight:600;
 	font-family:Helvetica;
+	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 @media only screen and (max-width: 500px){
 	.toppestnav a {
