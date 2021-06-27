@@ -193,6 +193,32 @@ p {
 		left:4.4rem;
 		
 	}
+	.laws {
+	margin-right:2.5%;
+	margin-left:2.5%;
+	}
+	.laws p {
+	margin-right:5%;
+	margin-left:5%;
+		
+	}
+	.laws li {
+	margin-right:5%;
+	margin-left:5%;
+		
+	}
+	.laws h3 {
+		margin-right:5%;
+	margin-left:5%;
+		
+	}
+	.footer {
+		display:none;
+	}
+	.laws img {
+		width:15em;
+		
+	}
 }			
 .footer {
 	text-align: center;
