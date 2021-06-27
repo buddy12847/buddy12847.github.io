@@ -209,8 +209,16 @@ main {
 		height:1100px;
 		
 	}
+	.toppestnav {
+		display: flex;
+    justify-content: center;
+	flex-wrap:wrap;
+	margin-right:2%;
+		
+	}
 	.toppestnav a {
 	font-size:13.5px;
+	width:75px;
 	}
 	.infobox {
 		display:none;
