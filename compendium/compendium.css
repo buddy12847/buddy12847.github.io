@@ -2,9 +2,9 @@
 }
 body {
 margin:0;
-height: auto;
 background-color: #a956dc;
-min-height: 1500px;
+min-height: 1000px;
+overflow: auto;
 }
 a {
 	color:black;
@@ -32,14 +32,20 @@ main {text-align: center;
 }
 
 main p {
-	margin-right: 15%;
-	margin-left: 15%;
 	font-size:calc(1em * 0.875);
+	padding-left:5%;
+	padding-right:5%;
 }
 main {
-	
-	margin-right:15%;
-	margin-left:15%;
+	position: absolute;
+	height:750px;
+	top:10%;
+	-webkit-box-shadow: inset 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: inset 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: inset 0px 0px 20px -1px rgba(0,0,0,0.6);
+	margin-right:25%;
+	margin-left:25%;
+	background-color:#be80e5;
 }
 .dropdown {
   font-weight:bold;
@@ -66,7 +72,9 @@ main {
 
 }
 .contents {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 	top:10%;
 	left:8%;
 	position: absolute;
@@ -91,12 +99,14 @@ main {
 .contents a.subcontent {
 	font-size:12px;
 	color:white;
-	margin-left:20px;
+	margin-left:40px;
 	padding-bottom:5px;
 	
 }
 .infobox {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 	top:10%;
 	right:8%;
 	position: absolute;
@@ -112,7 +122,9 @@ main {
 }
 .infobox h4 {
 	color:white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 	text-align:center;
 	background-color:#ae6b00;
 	margin:0;
@@ -122,7 +134,7 @@ main {
 	margin-top:15px;
 	padding-top:5px;
 	padding-bottom:5px;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
 	
 }
 .infobox p {
@@ -162,14 +174,18 @@ main {
 	width: 259px;
 	margin-left: auto;
 	margin-right: auto;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 	
 }
 /* Nav */
 .toppestnav {
 	background-color: #5e1c88;
 	overflow: hidden;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   -webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 }
 .toppestnav a {
 	float: left;
@@ -180,21 +196,28 @@ main {
 	font-size:16px;
 	font-weight:600;
 	font-family:Helvetica;
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+	text-shadow: 0px 0px 5px rgba(0,0,0,0.6);
 }
 @media only screen and (max-width: 500px){
+	body {
+		height:1100px;
+		
+	}
 	.toppestnav a {
 	font-size:13.5px;
 	}
 	.infobox {
 		display:none;
-		right:12%;
 		top:20%;
+		right:0;
+		width: 100%;
+		margin:0;
 		
 	}
 	main {
 		margin-right:0%;
 		margin-left:0%;
+		top:9rem;
 	}
 	h2 {
 		margin-right:0%;
@@ -220,6 +243,9 @@ main {
 	color: black;
 	background-color: #5e1c88;
 	width:100%;
+	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 }		
 .footerbtm {
 	font-size:10px;
