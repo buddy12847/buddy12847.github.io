@@ -10,7 +10,7 @@
 .titlecontainer img{
 	width:55vh;
 	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
 	margin-left:auto;
 	margin-right:auto;
 	
@@ -28,6 +28,16 @@
 body{
 background-color: #a956dc;
 margin:0;
+}
+main {
+	margin-bottom:75px;
+	
+}
+.calendar {
+	border-radius: 30px;
+	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
+	
 }
 a {
 	color:black;
@@ -66,12 +76,88 @@ p {
 	margin-right: 20%;
 	margin-left: 20%;
 }
+.laws {
+	top:10%;
+	border-radius: 30px;
+	box-shadow: inset 12px 12px 16px 0 rgba(0, 0, 0, 0.3),
+    inset -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
+	margin-right:20%;
+	margin-left:20%;
+	margin-bottom:150px;
+	margin-top:2rem;
+	padding-top:1rem;
+	padding-bottom:2rem;
+	background-color:#be80e5;
+	
+	
+}
+.laws p {
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align:left;
+	
+}
+.laws li {
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align:left;
+	
+}
+.laws h3 {
+		margin-right: 10%;
+		margin-left: 10%;
+		text-align:left;
+		font-size:16px;
+		font-weight:normal;
+}
+.laws p.lawtitle {
+			text-align:center;
+			font-size:30px;
+			font-weight:bold;
+			margin-top:1rem;
+}
+.flags {	
+	display: flex;
+    justify-content: center;
+}
+.flags figure {
+	top:10%;
+	border-radius: 30px;
+	box-shadow: inset 12px 12px 16px 0 rgba(0, 0, 0, 0.3),
+    inset -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
+	margin-bottom:150px;
+	margin-top:2rem;
+	padding:1rem;
+	background-color:#be80e5;
+	text-align:center;
+	display: inline-block;
+}
+.flags figure img {
+	vertical-align: top;
+	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
+}
+.flags figure figcaption {
+	 text-align: center;
+	 font-size:12px;
+	 padding-top:1rem;
+	 font-weight:bold;
+}
+.titleflag {
+	font-size:32px;
+	margin-bottom:1rem;
+	
+}
+
+
+
+
 /* Nav */
 .toppestnav {
 	background-color: #5e1c88;
 	overflow: hidden;
 	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
 	border-radius: 30px;
 	margin:5px;
 	padding-left:10px;
@@ -109,19 +195,19 @@ p {
 	}
 }			
 .footer {
-	position:absolute;
-	width:99%;
+	text-align: center;
+	position:fixed;
 	bottom:0;
-	background-color: #5e1c88;
-	overflow: hidden;
-	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
-	border-radius: 30px;
-	margin:5px;
+	width:99%;
 	height:40px;
+	margin:5px;
 	padding-bottom:15px;
 	padding-top:15px;
-	padding-left:10px;
+	color: black;
+	border-radius: 30px;
+	background-color: #5e1c88;
+	box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+    -8px -8px 12px 0 rgba(255, 255, 255, 0.2);
 }		
 .footerbtm {
 	font-size:10px;
