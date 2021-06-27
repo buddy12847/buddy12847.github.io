@@ -62,7 +62,9 @@ img {
  margin-bottom: 0;
 
 }
-p {text-align: center;}
+p {text-align: center;
+	margin-right:20%;
+	margin-left:20%;}
 
 #p1{
 	line-height:0;
@@ -75,10 +77,6 @@ p {text-align: center;}
 
 }
 div {text-align: center;}
-p {
-	margin-right: 20%;
-	margin-left: 20%;
-}
 .laws {
 	top:10%;
 	border-radius: 30px;
@@ -209,8 +207,8 @@ p {
 
 		}
 	.home p {
-		margin-right:8%;
-		margin-left:8%;
+		margin-right:5%;
+	margin-left:5%;
 		
 	}
 	.laws {
@@ -242,6 +240,10 @@ p {
 	.calendar img {
 		width:22em;
 		
+	}
+	.about p {
+		margin-right:8%;
+		margin-left:8%;
 	}
 }			
 .footer {
