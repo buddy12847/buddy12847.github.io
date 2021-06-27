@@ -2,10 +2,9 @@
 	position: relative;
 	color:white;
 	width:55vh;
+	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	display: block;
-	
 	
 }
 .titlecontainer img{
@@ -13,6 +12,8 @@
 	-webkit-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 	-moz-box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
 	box-shadow: 0px 0px 20px -1px rgba(0,0,0,0.6);
+	margin-left:auto;
+	margin-right:auto;
 	
 }
 .titletext {
@@ -88,6 +89,22 @@ p {
 @media only screen and (max-width: 500px){
 	.toppestnav a {
 	font-size:13.5px;
+	}
+	.titlecontainer img {
+		width:20em;
+		
+	}
+	.titlecontainer {
+		
+		
+	}
+	h1 {
+		font-size:1.15rem;
+		
+	}
+	.titletext {
+		left:4.4rem;
+		
 	}
 }			
 .footer {
