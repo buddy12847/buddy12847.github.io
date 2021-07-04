@@ -35,6 +35,12 @@ main {
 	
 }
 
+.nomina {
+	text-decoration:overline;
+	font-weight:bold;
+	
+}
+
 .calendar img {
 	width:65%;
 	border-radius: 30px;
