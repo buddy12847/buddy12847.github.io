@@ -135,8 +135,32 @@ if (month == "P" && day == 37){
 if (month == "P" && day == 41){
 	document.getElementById("titleimage").src="Holiday/pawwah.png";
 }
+if (month == "P" && day == 42){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 43){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 44){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 45){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 46){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 47){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 48){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
+if (month == "P" && day == 49){
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
+}
 if (month == "P" && day == 50){
-	document.getElementById("titleimage").src="Holiday/pawwah2.png";
+	document.getElementById("titleimage").src="Holiday/pawwah.png";
 }
 if (month == "D" && day == 17){
 	document.getElementById("titleimage").src="Holiday/doug.png";
