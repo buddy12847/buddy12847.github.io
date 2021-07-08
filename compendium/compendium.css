@@ -36,9 +36,10 @@ main {text-align: center;
 }
 
 main p {
-	font-size:calc(1em * 0.875);
-	padding-left:5%;
-	padding-right:5%;
+	font-size:calc(1em * 1.1);
+	padding-left:10%;
+	padding-right:10%;
+	letter-spacing: 1px;
 }
 main {
 	position: absolute;
@@ -181,7 +182,6 @@ main {
 	width: 259px;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 /* Nav */
 .toppestnav {
