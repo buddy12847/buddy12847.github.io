@@ -70,7 +70,8 @@ img {
 }
 p {text-align: center;
 	margin-right:20%;
-	margin-left:20%;}
+	margin-left:20%;
+	font-size:18px;}
 
 #p1{
 	line-height:0;
@@ -102,6 +103,7 @@ div {text-align: center;}
 	margin-right: 10%;
 	margin-left: 10%;
 	text-align:left;
+	font-size:18px;
 	
 }
 .laws li {
@@ -114,7 +116,7 @@ div {text-align: center;}
 		margin-right: 10%;
 		margin-left: 10%;
 		text-align:left;
-		font-size:16px;
+		font-size:18px;
 		font-weight:normal;
 }
 .laws p.lawtitle {
