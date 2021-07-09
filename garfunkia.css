@@ -71,7 +71,8 @@ img {
 p {text-align: center;
 	margin-right:20%;
 	margin-left:20%;
-	font-size:18px;}
+	font-size:20px;
+	letter-spacing: 1px;}
 
 #p1{
 	line-height:0;
