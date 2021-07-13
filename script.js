@@ -286,6 +286,49 @@ function flagclicked(){
 		var embedCode = '<video controls autoplay><source src="Video/911.mp4" type="video/mp4"></video>'
 		document.getElementById('titlecc').innerHTML = embedCode;
 	}
+	
+	
+	
+	if (month == "P" && day == 41){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 42){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 43){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 44){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 45){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 46){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 47){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 48){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 49){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
+if (month == "P" && day == 50){
+	var embedCode = '<video controls autoplay><source src="Video/pawwah.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+}
 }
 
 
