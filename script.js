@@ -162,77 +162,135 @@ if (month == "P" && day == 49){
 if (month == "P" && day == 50){
 	document.getElementById("titleimage").src="Holiday/pawwah.png";
 }
+if (month == "P" && day == 65){
+	document.getElementById("titleimage").src="Holiday/superd.png";
+}
 if (month == "D" && day == 17){
 	document.getElementById("titleimage").src="Holiday/doug.png";
 }
 if (month == "D" && day == 20){
-	document.getElementById("titleimage").src="brony.png";
+	document.getElementById("titleimage").src="Holiday/brony.png";
 }
 if (month == "D" && day == 20){
-	document.getElementById("titleimage").src="superdonkeykong2.png";
+	document.getElementById("titleimage").src="Holiday/superdonkeykong2.png";
 }
 if (month == "D" && day == 28){
-	document.getElementById("titleimage").src="zach.png";
+	document.getElementById("titleimage").src="Holiday/zach.png";
 }
 if (month == "D" && day == 44){
-	document.getElementById("titleimage").src="alvin.png";
+	document.getElementById("titleimage").src="Holiday/alvin.png";
 }
 if (month == "D" && day == 45){
-	document.getElementById("titleimage").src="terrynick.png";
+	document.getElementById("titleimage").src="Holiday/terrynick.png";
 }
 if (month == "D" && day == 49){
-	document.getElementById("titleimage").src="desp.png";
+	document.getElementById("titleimage").src="Holiday/desp.png";
 }
 if (month == "D" && day == 51){
-	document.getElementById("titleimage").src="winter.png";
+	document.getElementById("titleimage").src="Holiday/winter.png";
 }
 if (month == "D" && day == 57){
 }
 if (month == "D" && day == 70){
-	document.getElementById("titleimage").src="nixon.png";
+	document.getElementById("titleimage").src="Holiday/nixon.png";
 }
 if (month == "C" && day == 1){
-	document.getElementById("titleimage").src="tintin.png";
+	document.getElementById("titleimage").src="Holiday/tintin.png";
 }
 if (month == "C" && day == 4){
-	document.getElementById("titleimage").src="c4.png";
+	document.getElementById("titleimage").src="Holiday/c4.png";
 }
 if (month == "C" && day == 20){
-	document.getElementById("titleimage").src="kansas.png";
+	document.getElementById("titleimage").src="Holiday/kansas.png";
 }
 if (month == "C" && day == 21){
-	document.getElementById("titleimage").src="quick.png";
+	document.getElementById("titleimage").src="Holiday/quick.png";
 }
 if (month == "C" && day == 30){
-	document.getElementById("titleimage").src="misa.png";
+	document.getElementById("titleimage").src="Holiday/misa.png";
 }
 if (month == "C" && day == 33){
-	document.getElementById("titleimage").src="alex.png";
+	document.getElementById("titleimage").src="Holiday/alex.png";
 }
 if (month == "C" && day == 37){
-	document.getElementById("titleimage").src="professor.png";
+	document.getElementById("titleimage").src="Holiday/professor.png";
 }
 if (month == "C" && day == 40){
-	document.getElementById("titleimage").src="chad.png";
+	document.getElementById("titleimage").src="Holiday/chad.png";
 }
 if (month == "C" && day == 62){
-	document.getElementById("titleimage").src="scatman.png";
+	document.getElementById("titleimage").src="Holiday/scatman.png";
 }
 if (month == "C" && day == 67){
-	document.getElementById("titleimage").src="gangweed.png";
+	document.getElementById("titleimage").src="Holiday/gangweed.png";
 }
 if (month == "C" && day == 70){
-	document.getElementById("titleimage").src="spring.png";
+	document.getElementById("titleimage").src="Holiday/spring.png";
 }
 if (month == "R" && day == 1){
-	document.getElementById("p2").innerHTML = "Today marks the first day of the month of Repentance. Repent your sins to Garfunkel as the year comes to a close.";
+	// first day of repentence
 }
 if (month == "R" && day == 11){
-	document.getElementById("titleimage").src="yahoo.png";
+	document.getElementById("titleimage").src="Holiday/yahoo.png";
 }
 if (month == "R" && day == 15){
-	document.getElementById("titleimage").src="newyearseve.png";
+	document.getElementById("titleimage").src="Holiday/newyearseve.png";
 }
+
+//audio-video nonesense
+
+var g = document.getElementById("garfunkiaAudio"); 
+g.volume = 0.5;
+document.getElementById("titlecc").style.width = "auto";
+
+// Functions for flag clicks.
+
+function flagclicked(){
+	if (month == "R" && day == 15){
+		var embedCode = '<video controls autoplay><source src="Video/newyear.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+	}
+	if (month == "D" && day == 44){
+		var embedCode = '<video controls autoplay><source src="Video/alvin.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+	}
+	if (month == "L" && day == 22){
+		var embedCode = '<video controls autoplay><source src="Video/seinfeld.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+	}
+	if (month == "L" && day == 59){
+		document.getElementById("gfaudio").src="Sound/terry.mp3";
+		g.play();
+	}
+	if (month == "P" && day == 65){
+		document.getElementById("gfaudio").src="Sound/superd.mp3";
+		g.play();
+	}
+	if (month == "L" && day == 68){
+		document.getElementById("gfaudio").src="Sound/afghan.mp3";
+		g.play();
+	}
+	if (month == "P" && day == 26){
+		var embedCode = '<video controls autoplay><source src="Video/curious.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+	}
+	if (month == "C" && day == 1){
+		var embedCode = '<video controls autoplay><source src="Video/tintin.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+	}
+	if (month == "C" && day == 37){
+		document.getElementById("gfaudio").src="Sound/professor.mp3";
+		g.play();
+	}
+	if (month == "P" && day == 20){
+		var embedCode = '<video controls autoplay><source src="Video/911.mp4" type="video/mp4"></video>'
+		document.getElementById('titlecc').innerHTML = embedCode;
+	}
+}
+
+
+
+
 
 // Below
 // exports the day formatted to the correct format into a paragraph with the id of "p1".
