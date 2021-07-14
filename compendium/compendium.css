@@ -43,6 +43,7 @@ main p {
 }
 main {
 	position: absolute;
+	width:50%;
 	height:750px;
 	top:10%;
 	border-radius: 30px;
@@ -149,7 +150,7 @@ main {
 	color:white;
 	margin:0;
 	margin-left:5px;
-	margin-top:5px;
+	margin-top:2px;
 	font-size:12px;
 }
 .infobox a {
@@ -232,6 +233,7 @@ main {
 		margin-right:0%;
 		margin-left:0%;
 		top:9rem;
+		width:auto;
 	}
 	h2 {
 		margin-right:0%;
