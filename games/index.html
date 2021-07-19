@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="The Holy Temple of Garfunkel.">
+		<title>Holy Temple of Garfunkia</title>
+		<link rel="icon" href="../favicon.ico">
+		<style>
+			body{background-color:#b3b3ff;}
+			h1{text-align:center; line-height:0;}
+			.container{
+				display:grid;
+				height:100vh;
+				grid-template-columns: .5fr 2fr;
+				grid-template-rows: .1fr .1fr 2fr;
+				grid-template-areas:
+				"nav nav"
+				"header header"
+				"leftbar main"
+				"leftbar main"
+			}
+			nav{
+				grid-area: nav;
+			}
+			header{
+				grid-area: header;
+			}
+			#leftbar{
+				grid-area: leftbar;
+			}
+			main{
+				grid-area: main;
+			}
+			/* Nav */
+			.toppestnav {
+				background-color: #b3b3ff;
+				overflow: hidden;
+				border-style: inset;
+			}
+			.toppestnav a {
+				float: left;
+				text-align: center;
+				padding: 5px 15px;
+				text-decoration: none;
+				color: black;
+			}
+			.toppestnav a:hover {
+				background-color: #9999ff;}
+			.toppestnav a.active {
+				background-color: #8080ff;
+				color: white;
+			}
+			main{
+				margin-left:10px;
+			}
+			main img{
+				width:200px;
+				padding: 0;
+			}
+			main a{
+				line-height: 0;
+				padding: 0;
+				text-decoration: none;
+				font-size:20px;
+				color: black;
+			}
+			main h5{
+				font-size:17px;
+				margin-top:15px;
+				margin:10px;
+			}
+			figure {
+				display: inline-block;
+				margin: 0px;
+				margin-right:25px;
+			}
+			figure img{
+				vertical-align: top;
+			}
+			figure figcaption{
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<nav>
+				<div class="toppestnav">
+					<a href="http://www.garfunkia.org">Home</a>
+					<a href="http://www.garfunkia.org/about">About</a>
+					<a href="http://www.garfunkia.org/resources">Resources</a>
+					<a href="http://www.garfunkia.org/news">News</a>
+					<a href="http://www.garfunkia.org/extras">Extras</a>
+					<a class="active" href="http://www.garfunkia.org/games">Games</a>
+				</div>		
+			</nav>
+			<header>
+			<h1>Garfunkia Games</h1>
+			<hr/>
+			</header>
+			<div id="leftbar">
+				Leftbar
+			</div>
+			<main>
+				<figure>
+					<a href="http://www.garfunkia.org/games/superd"><figcaption><h5>Super D</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/superd"><img src="superd.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/gunblood"><figcaption><h5>Gun Blood</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/gunblood"><img src="gunblood.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/sb3"><figcaption><h5>Super Brawl 3</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/sb3"><img src="sb3.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/garfieldpingpong"><figcaption><h5>Garfield Ping Pong</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/garfieldpingpong"><img src="garfield.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/torture2"><figcaption><h5>Torture 2</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/torture2"><img src="torture.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/bubblepop"><figcaption><h5 style="font-size:15px;" >Curious George Bubble Pop</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/bubblepop"><img src="bubblepop.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/sd2"><figcaption><h5>Super Donkey Kong 2</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/sd2"><img src="sd2.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/burgeria"><figcaption><h5>Papa's Burgeria</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/burgeria"><img src="burgeria.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/unchartedwaters"><figcaption><h5 style="font-size:12px;">Uncharted Waters: New Horizons</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/unchartedwaters"><img src="unchartedwaters.gif"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/pokemoncrystal"><figcaption><h5>Pokemon: Crystal</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/pokemoncrystal"><img src="pokemon.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/marthaband"><figcaption><h5 style="font-size:13px;">Marth Speaks: Make the Band</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/marthaband"><img src="martha.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/smashcomputer"><figcaption><h5>Smash the Computer</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/smashcomputer"><img src="computer.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/sb2"><figcaption><h5>Super Brawl 2</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/sb2"><img src="sb2.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/msc2"><figcaption><h5>Madalin Stunt Cars 2</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/msc2"><img src="msc2.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/pogoswing"><figcaption><h5>Pogo Swing</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/pogoswing"><img src="pogoswing.jpg"></img></a>
+				</figure>
+				<figure>
+					<a href="http://www.garfunkia.org/games/pottyracers2"><figcaption><h5>Potty Racers 2</h5></figcaption></a>
+					<a href="http://www.garfunkia.org/games/pottyracers2"><img src="pottyracers2.jpg"></img></a>
+				</figure>
+			</main>
+		</div>
+	</body>
+</html>
